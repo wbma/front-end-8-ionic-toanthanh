@@ -1,0 +1,51 @@
+page-sign-in {
+  #description {
+    margin-bottom: 42px;
+  }
+
+  #forgotPassword {
+    margin-top: 7px;
+    margin-bottom: 23px;
+    color: grey;
+    font-size: 0.75em;
+    text-decoration: none;
+  }
+
+  .image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item-inner {
+    border-bottom-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .input-has-focus {
+    border-bottom: 0.5px solid $color-1;
+    color: $color-1;
+  }
+
+  ion-input {
+    color: black;
+  }
+
+  div .no-account {
+    top: 20%;
+    bottom: 1%;
+    text-align: center;
+  }
+
+  div a {
+    color: $color-1;
+  }
+
+  #title {
+    margin: 25px 0;
+  }
+
+  .signInBtn {
+    background-image: linear-gradient(160deg, rgb(2, 179, 228), rgb(2, 204, 186)) !important;
+  }
+}
